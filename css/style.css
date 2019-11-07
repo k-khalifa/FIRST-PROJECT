@@ -1,0 +1,107 @@
+/* Start our framework */
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    width:68%;
+    margin:auto;
+}
+
+.text-center{
+    text-align:center;
+}
+
+.upper{
+    text-transform:uppercase;
+}
+
+.main-color{
+    color:#f7600e;
+}
+
+.main-background{
+    background-color:#f7600e;
+}
+
+
+/* End our framework */
+
+
+/* Start our Header */
+
+.header{
+background:url("../images/Header_back.jpg");
+background-position: center;
+background-size: cover;
+color: #fff;
+}
+
+.header .overlay{
+    background-color:rgba(49, 55, 61, 0.6);
+    width: 100%;
+    height:100%;
+}
+
+.header .navbar{
+    overflow: hidden;
+    padding: 20px 0px;
+    position: absolute;
+    
+}
+
+.header .navbar .links{
+    float:right;
+    
+}
+
+.header .navbar .links i{
+    margin-left: 5px;
+}
+
+
+.header .navbar span:first-of-type{
+    font-size:23px;
+    
+}
+
+/* FONT OPEN SANS */
+.header  .intro h1{
+    margin:0px;
+    font-weight:700;
+    
+    font-size: xx-large;
+}
+
+
+.header  .intro p{
+    margin: 5px 0px 40px;
+    line-height: 1.9;
+    font-size:17px;
+    color:#e2e2e2;
+    
+}
+
+
+
+.header .buttons button{
+    background-color:transparent;
+    padding: 10px 0px;
+    width: 180px;
+    font-size: 14px;
+    border: solid 1px #909090;
+    margin: 0px 8px;
+    border-radius: 10px;
+    color: #fff;
+    -webkit-transition:all 0.20s ease-in-out;
+    transition:all 0.5s ease-in-out;
+    
+}
+
+
+
+.header .buttons button:hover{
+    background-color:#f7600e;
+    border: solid 1px #f7600e;
+}
